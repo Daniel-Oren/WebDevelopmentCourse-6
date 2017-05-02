@@ -1,0 +1,506 @@
+body {
+    direction: rtl;
+}
+
+div {
+    margin: 10px 5px;
+    clear: both;
+}
+
+#recpie li {
+    margin-right: 20px;
+}
+
+/*חלק ב' - CSS */
+
+/*חלק ב' - תרגיל 1 - מזלות*/
+#zodiac {
+    background-image: url(../images/Zodiac.jpg);
+    width: 100px;
+    height: 150px;
+    background-position: right;
+}
+
+
+/*חלק ב' - תרגיל 2 - aside*/
+#aside {
+    border: 2px black solid;
+    width: 381px;
+    height: 216px;
+}
+
+    #aside h1 {
+        text-align: center;
+        background-color: lightgreen;
+        padding: 8px;
+        width: 348px;
+        margin-right: 9px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+
+    #aside p {
+        padding: 5px 41px;
+        text-align: justify;
+    }
+
+        #aside p:first-letter {
+            color: hotpink;
+            font-size: 22px;
+        }
+
+#decoration {
+    background-image: url(../images/decorative.png);
+    width: 319px;
+    height: 29px;
+    background-size: 303px;
+    background-repeat: no-repeat;
+    margin-right: 23px;
+    margin-top: 11px;
+}
+
+
+
+/*חלק ב' - תרגיל 3 - אינסטגרם*/
+#instegram a {
+    background-image: url(../images/instegram.png);
+    width: 50px;
+    height: 200px;
+    background-size: 100px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+    #instegram a:hover {
+        background-position: left;
+    }
+
+/*חלק ב' - תרגיל 4 - זברה*/
+#zebra {
+    border: 3px green solid;
+    background-color: mediumpurple;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    padding-bottom: 37px;
+    height: 150px;
+    -webkit-transition: all 2ms ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+    #zebra ul {
+        list-style: none;
+    }
+
+        #zebra ul li {
+            padding: 2px;
+        }
+
+            #zebra ul li:nth-child(odd) {
+                font-size: 22px;
+                -webkit-transition: all 2ms ease;
+                -moz-transition: all 2s ease;
+                -ms-transition: all 2s ease;
+                -o-transition: all 2s ease;
+                transition: all 2s ease;
+            }
+
+            #zebra ul li:nth-child(even) {
+                font-size: 12px;
+                margin-right: 10px;
+                -webkit-transition: all 2ms ease;
+                -moz-transition: all 2s ease;
+                -ms-transition: all 2s ease;
+                -o-transition: all 2s ease;
+                transition: all 2s ease;
+            }
+
+    #zebra:hover {
+        border: 3px mediumpurple solid;
+        background-color: green;
+    }
+
+        #zebra:hover ul li:nth-child(odd) {
+            font-size: 12px;
+            margin-right: 10px;
+        }
+
+        #zebra:hover ul li:nth-child(even) {
+            font-size: 22px;
+            margin-right: 0;
+        }
+
+
+/*חלק ב' - תרגיל 5 - זומבי*/
+#zombie {
+    background-image: url("../images/Zombie.png");
+    width: 101px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+    #zombie:hover {
+        background-position: right;
+    }
+
+    #zombie:active {
+        background-position: left;
+    }
+
+
+/*חלק ג' - HTML+CSS */
+
+/*חלק ג' - תרגיל 1 - תגים סמנטיים*/
+#semantic {
+    background-image: url(../images/frame.jpg);
+    width: 413px;
+    height: 309px;
+    background-size: 385px;
+    background-repeat: no-repeat;
+}
+
+    #semantic h1 {
+        font-size: 29px;
+        padding: 9px;
+        text-align: center;
+        margin-right: 23px;
+    }
+
+    #semantic p {
+        text-align: justify;
+        width: 260px;
+        margin-right: 83px;
+    }
+
+    #semantic section {
+        padding-top: 103px;
+        margin-right: 10px;
+    }
+
+
+/*חלק ג' - תרגיל 2 - האתר של דני*/
+#myWebSite article {
+    border: 5px dotted purple;
+    width: 441px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#myWebSite h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#myWebSite header p {
+    text-align: center;
+}
+
+#myWebSite h2 {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+#myWebSite ul li {
+    list-style: none;
+    margin-right: 10px;
+    color: blue;
+}
+
+footer p {
+    text-align: center;
+    padding: 5px;
+}
+
+#odot {
+    background-image: url(../images/Profile.png);
+    width: 14px;
+    height: 15px;
+    background-size: 14px;
+    background-repeat: no-repeat;
+    padding-right: 25px;
+    background-position: 66%;
+}
+
+#ohev {
+    background-image: url(../images/Heart.png);
+    width: 14px;
+    height: 15px;
+    background-size: 14px;
+    background-repeat: no-repeat;
+    padding-right: 120px;
+    background-position: 59%;
+    width: 148px;
+}
+
+#limudim {
+    background-image: url("../images/Academic.png");
+    width: 14px;
+    height: 15px;
+    background-size: 14px;
+    background-repeat: no-repeat;
+    width: 165px;
+    padding-right: 264px;
+    background-position: 40%;
+}
+
+
+
+/*חלק ד' - תפריטי ניווט*/
+
+/*חלק ד' - תרגיל 1 - אתר חדשות*/
+nav ul li {
+    display: inline-block;
+    float: right;
+}
+
+#nav1 ul li a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    width: 120px;
+    height: 21px;
+    padding: 8px;
+    display: block;
+}
+
+#tarbut {
+    background-color: deeppink;
+}
+
+.black {
+    background-color: black;
+}
+
+#nav2 ul {
+    clear: both;
+    padding-top: 10px;
+}
+
+    #nav2 ul li a {
+        text-decoration: none;
+    }
+
+.pink {
+    color: deeppink;
+}
+
+#tarBlack {
+    color: black;
+}
+
+#nav2 ul li:after {
+    content: ">";
+}
+
+#nav2 ul li:last-child:after {
+    content: "";
+}
+
+#homePage {
+    background-image: url("../images/Home.png");
+    background-size: 21px;
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+    margin-right: 50px;
+    margin-top: 0px;
+}
+
+
+/*חלק ד' - תרגיל 2 - hit*/
+#hit nav ul li ul {
+    display: none;
+    position: absolute;
+}
+
+#hit nav ul li:hover > ul {
+    display: block;
+    width: 120px;
+}
+
+#hit nav ul li a {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    width: 170px;
+    height: 21px;
+    padding: 10px;
+    display: block;
+}
+
+    #hit nav ul li a:hover {
+        background-color: deepskyblue;
+        color: white;
+    }
+
+#hit nav ul li ul li:hover > ul {
+    display: block;
+    position: absolute;
+    width: 190px;
+    right: 190px;
+    border: 1px solid deepskyblue;
+    top: 0px;
+}
+
+/*חלק ה' - טבלאות*/
+
+/*חלק ה' - תרגיל 1 - ערבוב צבעים*/
+#mixingColors {
+    margin-top: 100px;
+}
+
+    #mixingColors table, tr, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        vertical-align: middle;
+        width: 250px;
+        height: 10px;
+        text-align: center;
+    }
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#mixingColors table, th {
+    text-align: right;
+}
+
+
+/*חלק ה' - תרגיל 2 - בישול ירקות*/
+#cookingVegetables table td, #cookingVegetables th {
+    text-align: center;
+}
+
+#shlif {
+    background-color: orange;
+}
+
+.cookingItems {
+    background-color: green;
+    color: white;
+}
+
+#cookingVegetables table, #cookingVegetables tr, #cookingVegetables th, #cookingVegetables td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 681px;
+    height: 33px;
+}
+
+    #cookingVegetables table th, td {
+        vertical-align: middle;
+    }
+/*חלק ה' - תרגיל 3 - ארוחות העשר של דני*/
+.blueTh {
+    background-color: lightblue;
+    text-align: center;
+    height: 33px;
+}
+
+#blue {
+    background-color: lightblue;
+}
+
+#dani table {
+    border-radius: 50px;
+    border-collapse: separate;
+    border: none;
+    width: 670px;
+}
+
+#dani tr, #dani th, #dani td {
+    border: 2px solid black;
+    font-size: 12px;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-radius: 20px;
+}
+
+.thSide {
+    vertical-align: top;
+    text-align: center;
+}
+
+#veg {
+    background-image: url("../images/vegetable.png");
+    width: 136px;
+    height: 87px;
+    background-repeat: no-repeat;
+    background-size: 84px;
+}
+
+#fruit {
+    background-image: url("../images/fruit.png");
+    width: 136px;
+    height: 87px;
+    background-repeat: no-repeat;
+    background-size: 84px;
+}
+
+#sandwich {
+    background-image: url("../images/sandwich.png");
+    width: 136px;
+    height: 87px;
+    background-repeat: no-repeat;
+    background-size: 84px;
+}
+
+#pinuk {
+    background-image: url("../images/cookie.png");
+    width: 136px;
+    height: 87px;
+    background-repeat: no-repeat;
+    background-size: 84px;
+}
+
+
+/*חלק ו' - טפסים*/
+
+/*חלק ו'-תרגיל 1 HT5C3 */
+input[type ='text'], input[type ='password'], textarea, select {
+    display: block;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+#HT5C3 {
+    border-radius: 3px 3px 3px 3px;
+    background-color: #A8CCC5;
+    width: 350px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+    #HT5C3 h1 {
+        font-size: 36px;
+        color: #008285;
+        margin-top: 2px;
+        font-family: Calibri;
+        text-align: center;
+    }
+     input[type ='submit']{
+         margin-top:15px;
+     }
